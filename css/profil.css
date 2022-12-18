@@ -1,0 +1,139 @@
+main{
+    background-color: rgb(244, 244,244);
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+li{
+
+}
+.profilMainInfo{
+    width: 90%;
+    background-color: white;
+    display: flex;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 24px;
+}
+.profilImg img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.profilIn h1{
+    font-size: 20px;
+}
+
+.profilAchievement{
+    display: flex;
+    align-items: center;
+    height: 70%;
+}
+.profilAchievementInfo{
+    margin: 10px;
+}
+.profilAchievementInfo p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.profilAchievementInfo h3{
+    font-size: 14px;
+}
+
+.workoutInfo{
+    width: 50%;
+
+}
+.workoutHeaderText h1{
+    font-size: 20px;
+    margin-left: 40px;
+}
+.workoutInfoPage{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 22px;
+    margin-left: 12px;
+    border-radius: 24px;
+}
+.shtoto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.workoutPage{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.workoutPage img{
+    width: 100px;
+    height: 90px;
+}
+.workoutText p{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.statisticsInfo{
+    width: 38%;
+
+}
+.statisticsInfoPage{
+    width: 90%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 22px;
+    margin-left: 72px;
+    border-radius: 24px;
+}
+.statisticsHtoto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.statisticsPage{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.statisticsText{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.statisticsHeaderText h1{
+    font-size: 20px;
+    margin-left: 90px;
+}
+.statisticsPage img{
+    width: 100px;
+    height: 90px;
+}
+.statisticsText p{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
