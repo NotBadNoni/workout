@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout</title>
+    <link rel="icon" href="https://static.thenounproject.com/png/1365947-200.png">
+    <link rel="stylesheet" href="../css/sigInStyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="tabs">
+            <button class="tab active" type="button" data-tab="#tab_1">Sign In</button>
+            <button class="tab" type="button" data-tab="#tab_2">Register</button>
+        </div>
+        <div class="content">
+            <div class="sigIn active" id="tab_1">
+                <h1>Login form</h1>
+                <form action="" method="post" class="forma"> 
+                    <input type="text" class="input" name="login" id="login" placeholder="Enter login"><br> 
+                    <input type="password" class="input" name="pass" id="pass" placeholder="Enter password"><br>
+                    <button class="button"  type="submit">Login</button>
+                </form>
+            </div>
+            <div class="sigIn" id="tab_2">
+                <h1>Registration form</h1>
+                <form action="" method="post" class="forma"> 
+                    <input type="text" class="input" name="login" id="login" placeholder="Enter login"><br> 
+                    <input type="text" class="input" name="name" id="name" placeholder="Enter your name"><br> 
+                    <input type="password" class="input" name="pass" id="pass" placeholder="Enter password "><br>
+                    <input type="password" class="input" name="pass" id="pass" placeholder="Enter your password again"><br>
+                    <button class="button"  type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../script/app.js"></script>
+</body>
+</html>
