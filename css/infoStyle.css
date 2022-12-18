@@ -192,6 +192,20 @@ main{
     margin: 42px 0 24px 20px;
     width: 100%;
 }
+.headerTextButton{
+    padding: 9px;
+    background-color: rgb(245, 245, 245);
+    color: black;
+    border-radius: 23px;
+    /* border:1px solid black; */
+    margin-left: 10px;
+}
+.headerTextButton:hover{
+    color: white;
+    background-color: black;
+}
+
+
 .postImage{
     width: 100%;
 
@@ -249,7 +263,11 @@ main{
 }
 .postScrollPost{
     
+    border-radius: 12px;
+    /* border: 1px solid black; */
+    background-color: wheat;
     padding: 20px;
+    margin: 10px;
 
 }
 .postScrollImage{
@@ -260,9 +278,9 @@ main{
     height: 400px;
     object-fit: cover;
 }
-.postScrollInfo{
+/* .postScrollInfo{
 
-}
+} */
 .postScrollInfo h3{
     margin: 0 0 10px 0;
 }
