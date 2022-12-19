@@ -1,0 +1,50 @@
+main{
+    background-color: rgb(244, 244,244);
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+button{
+    border: none;
+}
+
+/* form{
+
+} */
+.button{
+    background-color: wheat;
+    width: 100%;
+    padding: 4px;
+    border-radius: 8px;
+}
+.button:hover{
+    background-color: rgb(216, 193, 150);
+}
+
+.paragraphTextAnnouncement{
+    margin: 12px;
+}
+.headerTextAnnouncement{
+    margin: 12px;
+}
+.topAnnouncement{
+    width: 90%;
+}
+.topAnnouncement img{
+    width: 100%;
+}
+.announcement{
+    width: 50%;
+    background-color: white;
+    border-radius: 24px;
+    padding: 22px;
+    margin: 12px;
+
+    transform: translate(-20%, 0px);
+    opacity: 0;
+    transition: all 0.4s ease 0s;
+}
+.announcement._active{
+    transform: translate(0px, 0%);
+    opacity: 1;
+}

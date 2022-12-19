@@ -1,3 +1,7 @@
+.main-bar {
+  background-color: lightsalmon;
+}
+
 .right-bar {
   background-color: lightseagreen;
   position: fixed;
