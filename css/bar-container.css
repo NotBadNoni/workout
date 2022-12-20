@@ -2,15 +2,29 @@
   margin-top: 80px;
   display: flex;
   background-color: lightblue;
+  z-index: 50;
 }
 
 .main-bar {
   flex: 2;
   display: flex;
   margin-left: 250px;
-  justify-content: center;
 }
 
 .right-bar {
   flex: 1;
 }
+
+.cell-header {
+  display: flex;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+}
+
+.cell-body {
+  display: flex;
+}
+
