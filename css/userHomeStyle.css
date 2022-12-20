@@ -11,6 +11,19 @@ button{
 /* form{
 
 } */
+
+#h1{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#h1:hover{
+    color: white;
+}
+
 .button{
     background-color: wheat;
     width: 100%;
@@ -34,7 +47,6 @@ button{
     width: 100%;
 }
 .announcement{
-    width: 50%;
     background-color: white;
     border-radius: 24px;
     padding: 22px;
@@ -47,4 +59,49 @@ button{
 .announcement._active{
     transform: translate(0px, 0%);
     opacity: 1;
+}
+.announcementClass{
+    width: 70%;
+}
+
+.followersClass{
+    transform: translate(20%, 0px);
+    opacity: 0;
+    transition: all 0.4s ease 0s;
+}
+.followersClass._active{
+    transform: translate(0px, 0%);
+    opacity: 1;
+}
+.follower{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    margin: 12px;
+    border-radius: 24px;
+}
+.leftFollower img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.rightFollower{
+    margin: 12px;
+    display: flex;
+    align-items: center;
+}
+.buttonFollower{
+    background-color: white;
+    color: wheat;
+    font-size: 20px;
+}
+.buttonFollowerImg{
+    width: 20px;
+    height: 20px;
+}
+
+.mainContainer{
+    display: flex;
 }
