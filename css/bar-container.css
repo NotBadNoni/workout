@@ -3,3 +3,14 @@
   display: flex;
   background-color: lightblue;
 }
+
+.main-bar {
+  flex: 2;
+  display: flex;
+  margin-left: 250px;
+  justify-content: center;
+}
+
+.right-bar {
+  flex: 1;
+}
