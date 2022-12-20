@@ -92,11 +92,6 @@
   color:darkgray;
 }
 
-.right-bar {
-  flex: 1;
-  background-color: lightgreen;  
-}
-
 .cell-footer {
   display: flex;
   flex-direction: column;
@@ -121,4 +116,45 @@
   font-size: 20px;
   background-color: rgb(240, 240, 240);
   flex: 1;
+}
+
+.right-bar {
+  flex: 1;
+}
+
+.right-bar input {
+  font-size: 20px;
+}
+
+.athletes-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 100px;
+}
+
+.athletes-container button {
+  color:rgb(0, 170, 255);
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+  margin-right: 30px;
+}
+
+.athlete {
+  display: flex;
+  justify-content: space-between;
+  border-bottom:2px solid rgb(109, 114, 127);
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.athlete-a {
+  display: flex;
+  align-items: center;
+}
+
+.athlete-a div {
+  margin-left: 10px;
 }
