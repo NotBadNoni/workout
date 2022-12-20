@@ -1,11 +1,5 @@
-.main-bar {
-  background-color: lightsalmon;
-}
-
-.right-bar {
-  background-color: lightseagreen;
-  position: fixed;
-  right: 0px;
-  top: 80px;
-  
+.bar-container {
+  margin-top: 80px;
+  display: flex;
+  background-color: lightblue;
 }
