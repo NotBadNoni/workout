@@ -115,6 +115,9 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-right: 20px;
+
+    
+
 }
 .mainFastInfo{
     margin: 0 12px;
@@ -340,4 +343,30 @@ footer{
     justify-content: center;
     color: white;
     margin: 20px;
+}
+
+@media (max-width: 1064px) {
+    .postImageRight{
+        width: 40%;
+    }
+}
+@media (max-width: 920px) {
+    .mainFastInfo{
+        opacity: 0;
+        visibility: hidden;
+
+        width: 0;
+    }
+    .headerTextButton{
+        width: 50px;
+    }
+
+    .postImageRight{
+        width: 100%;
+    }
+
+    .centerSecondHeaderInfo{ 
+        margin-right: 0px;
+        width: 0;
+    }
 }

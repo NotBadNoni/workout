@@ -8,6 +8,7 @@
         <link rel="icon" href="https://static.thenounproject.com/png/1365947-200.png">
         <link rel="stylesheet" href="../css/infoStyle.css">
         <link rel="stylesheet" href="../css/profil.css">
+        <link rel="stylesheet" href="../css/userHomeStyle.css">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -103,7 +104,7 @@
         </div>
         <div class="statisticsInfo">
             <div class="statisticsHeaderText">
-                <h1>Statistics</h1>
+                <h1>Followers</h1>
             </div>
             <div class="statisticsInfoPage">
                 <div class="statisticsHtoto">
@@ -131,5 +132,6 @@
     <?php endif;?>
     </div>
       <script src="../script/script.js"></script>
+      <script src="../script/exersice.js"></script>
 </body>
 </html>
