@@ -1,11 +1,64 @@
+.bar-container {
+  margin-top: 80px;
+  display: flex;
+  background-color: lightblue;
+  z-index: 50;
+}
+
 .main-bar {
-  background-color: lightsalmon;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+}
+
+.cell {
+  margin: 15px;
+}
+
+.cell-header {
+  display: flex;
+  background-color: lightcoral;
+  height: 60px;
+  align-items: center;
+}
+
+.cell-header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+}
+
+.author p {
+  margin: 0;
+}
+
+.cell-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.exercise-name {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.exercise-period {
+  display: flex;
+}
+
+.r1 {
+  color:rgb(109, 114, 127);
+  font-size: 15px;
 }
 
 .right-bar {
-  background-color: lightseagreen;
-  position: fixed;
-  right: 0px;
-  top: 80px;
-  
+  flex: 1;
 }
