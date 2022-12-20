@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Workout</title>
         <link rel="icon" href="https://static.thenounproject.com/png/1365947-200.png">
-        <link rel="stylesheet" href="../css/infoStyle.css">
+        <link rel="stylesheet" href="../css/infoStyleMain.css">
         <link rel="stylesheet" href="../css/userHomeStyle.css">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">

@@ -32,8 +32,8 @@
                   
                   <div class="firstHeader">
                     <div class="leftFirstHeaderInfo">
-                      <a href="https://www.nike.com/jordan"><img style="width: 24px; height: 24px;" src="https://assets.stickpng.com/images/584292c4a6515b1e0ad75aca.png" alt="logo"></a>
-                      <a href="https://www.converse.com/country-language-selector"><img src="https://www.logo.wine/a/logo/Converse_(shoe_company)/Converse_(shoe_company)-Icon-Logo.wine.svg" alt="logo"></a>
+                        <a href="https://www.nike.com/jordan"><img style="width: 24px; height: 24px;" src="https://assets.stickpng.com/images/584292c4a6515b1e0ad75aca.png" alt="logo"></a>
+                        <a href="https://www.converse.com/country-language-selector"><img src="https://www.logo.wine/a/logo/Converse_(shoe_company)/Converse_(shoe_company)-Icon-Logo.wine.svg" alt="logo"></a>
                     </div>  
                     <div class="rightFirstHeaderInfo">
                       <a href="https://about.nike.com/en/newsroom" class="fastInfo">News</a>

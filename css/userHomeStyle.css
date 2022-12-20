@@ -8,10 +8,6 @@ button{
     border: none;
 }
 
-/* form{
-
-} */
-
 #h1{
     display: flex;
     height: 100%;
@@ -104,4 +100,30 @@ button{
 
 .mainContainer{
     display: flex;
+}
+
+@media (max-width: 1064px) {
+    .announcementClass{
+        width: 100%;
+    }
+
+}
+@media (max-width: 1060px) {
+    .followersClass{
+        opacity: 0;
+        visibility: hidden;
+
+        width: 0;
+    }
+}
+@media (max-width: 920px) {
+    .search{
+        opacity: 0;
+        visibility: hidden;
+
+        width: 0;
+    }
+    .headerTextButton{
+        width: 100%;
+    }
 }
